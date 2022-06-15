@@ -21,6 +21,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  background: #000;
+}
 
 .bg-1 {
   background-image: url("/images/shubham-dhage-KZprVTQ8L7E-unsplash.jpg");
@@ -117,13 +120,13 @@ html {
 }
 
 .home__title {
-  color: #0c1013;
+  color: #fff;
   font-size: 3rem;
   font-weight: 600;
 }
 
 .home__text {
-  color: #0c1013;
+  color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
 }
@@ -516,6 +519,7 @@ html {
 .footer {
   height: 45vh;
   background: #000;
+  margin-top: 2rem;
 }
 .content__container {
   border-bottom: 1px white solid;
@@ -524,7 +528,7 @@ html {
   height: 35vh;
   width: 80%;
   margin-left: 10%;
-  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .column1 {
   padding-right: 2rem;
