@@ -18,12 +18,12 @@
   font-family: "Rubik", monospace;
 }
 
-html {
-  scroll-behavior: smooth;
+body {
+  background: rgba(0, 0, 0, 1);
 }
 
 .bg-1 {
-  background-image: url("/images/shubham-dhage-KZprVTQ8L7E-unsplash.jpg");
+  background-image: url("/images/shubham-dhage-1i0VtkVQk_Q-unsplash.jpg");
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -117,13 +117,13 @@ html {
 }
 
 .home__title {
-  color: #0c1013;
+  color: #fff;
   font-size: 3rem;
   font-weight: 600;
 }
 
 .home__text {
-  color: #0c1013;
+  color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
 }
@@ -521,10 +521,9 @@ html {
   border-bottom: 1px white solid;
   display: flex;
   justify-content: center;
-  height: 35vh;
+  height: 30vh;
   width: 80%;
   margin-left: 10%;
-  padding-top: 4rem;
 }
 .column1 {
   padding-right: 2rem;
